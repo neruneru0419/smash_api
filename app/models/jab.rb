@@ -1,0 +1,2 @@
+class Jab < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class TechniqueFrame < ApplicationRecord
+end
