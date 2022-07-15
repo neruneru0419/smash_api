@@ -1,0 +1,3 @@
+class AttackFrame < ApplicationRecord
+  
+end
