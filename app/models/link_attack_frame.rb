@@ -1,0 +1,2 @@
+class LinkAttackFrame < ApplicationRecord
+end

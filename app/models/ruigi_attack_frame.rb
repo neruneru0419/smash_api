@@ -1,0 +1,2 @@
+class RuigiAttackFrame < ApplicationRecord
+end

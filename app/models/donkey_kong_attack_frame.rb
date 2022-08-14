@@ -1,0 +1,2 @@
+class DonkeyKongAttackFrame < ApplicationRecord
+end
