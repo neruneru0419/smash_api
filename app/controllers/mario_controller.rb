@@ -1,5 +1,5 @@
 class MarioController < ApplicationController
   def index
-    render json: {status: 200}
+    render json: {status: MarioAttackFrame}
   end
 end

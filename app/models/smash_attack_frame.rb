@@ -1,0 +1,2 @@
+class SmashAttackFrame < ApplicationRecord
+end

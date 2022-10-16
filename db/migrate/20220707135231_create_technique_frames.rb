@@ -21,6 +21,3 @@ class CreateTechniqueFrames < ActiveRecord::Migration[6.0]
     end
   end
 end
-ファイター
-
-技一覧

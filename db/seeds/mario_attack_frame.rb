@@ -5,7 +5,7 @@ def get_attack_frame(attack_type, attack_phase, duration, entire_frame, basic_da
     duration: duration, 
     entire_frame: entire_frame,
     basic_damage: basic_damage,
-    one_on_one_damage:, one_on_one_damage,
+    one_on_one_damage: one_on_one_damage,
     guard_hardness: guard_hardness,
     remarks: remarks,
     completion_elimination: completion_elimination
@@ -22,7 +22,7 @@ attack_frame_data = [
     3,
     "5-24Fは弱2に移行可能。空振り時にボタン長押しで7F目から弱1でキャンセル可能。",
     0
-  )
+  ),
   get_attack_frame(
     "弱攻撃", 
     "弱2", 
@@ -33,7 +33,7 @@ attack_frame_data = [
     3,
     "6-24Fは弱3に移行可能。",
     1
-  )
+  ),
   
   get_attack_frame(
     "弱攻撃", 
@@ -45,7 +45,7 @@ attack_frame_data = [
     5,
     "",
     0
-  )
+  ),
 
   get_attack_frame(
     "ダッシュ攻撃", 
@@ -57,7 +57,7 @@ attack_frame_data = [
     14,
     "ガード硬直補正倍率:1.875倍",
     1
-  )
+  ),
   get_attack_frame(
     "ダッシュ攻撃", 
     "", 
@@ -68,7 +68,7 @@ attack_frame_data = [
     14,
     "ガード硬直補正倍率:1.875倍",
     1
-  )
+  ),
   get_attack_frame(
     "ダッシュ攻撃", 
     "持続", 
@@ -79,7 +79,7 @@ attack_frame_data = [
     11,
     "ガード硬直補正倍率:1.875倍",
     1
-  )
+  ),
   get_attack_frame(
     "横強", 
     "全シフト", 
@@ -90,7 +90,7 @@ attack_frame_data = [
     7,
     "",
     1
-  )
+  ),
   get_attack_frame(
     "上強", 
     "", 
@@ -101,7 +101,7 @@ attack_frame_data = [
     6,
     "",
     1
-  )
+  ),
   get_attack_frame(
     "下強", 
     "", 
@@ -112,7 +112,7 @@ attack_frame_data = [
     "7/6",
     "",
     0
-  )
+  ),
   get_attack_frame(
     "横スマッシュ", 
     "全シフト", 
@@ -123,7 +123,7 @@ attack_frame_data = [
     "10/12",
     "先端のみ相殺なし。溜め開始:6F目",
     7
-  )
+  ),
   get_attack_frame(
     "上スマッシュ", 
     "", 
@@ -134,7 +134,7 @@ attack_frame_data = [
     "10",
     "頭無敵:9-12F ぬるり判定消去:7-19F 溜め開始:7F目",
     8
-  )
+  ),
   get_attack_frame(
     "下スマッシュ", 
     "Hit 1", 
@@ -145,7 +145,7 @@ attack_frame_data = [
     "7",
     "溜め開始:3F目",
     8
-  )
+  ),
   get_attack_frame(
     "下スマッシュ", 
     "Hit 2", 
@@ -159,6 +159,6 @@ attack_frame_data = [
   )
 ]
 
-MarioAttackFrame.create(attackFrameData)
+MarioAttackFrame.create(attack_frame_data)
 
 # mario_attack_frame

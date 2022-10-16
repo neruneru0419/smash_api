@@ -1,0 +1,2 @@
+class DodgeFrame < ApplicationRecord
+end

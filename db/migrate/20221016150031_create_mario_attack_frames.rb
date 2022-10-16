@@ -1,4 +1,4 @@
-class CreateAttackFrames < ActiveRecord::Migration[6.0]
+class CreateMarioAttackFrames < ActiveRecord::Migration[6.0]
   def change
     create_table :attack_frames do |t|
       t.string :fighter_name #mario
